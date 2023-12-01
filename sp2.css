@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    
+    margin: 0;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.app1{
+    margin-top:60px;
+}
+
+#main{
+    
+}
+#nav li img{
+    vertical-align: middle;
+   
+    max-width: 100px;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#nav li a{
+  
+}
+#nav > li{
+    display: block;
+}
+#nav li{
+    position: relative;
+ margin: 0px 30px;
+ display: inline-block;
+ 
+ 
+ 
+}
+#nav .subnav1,
+#nav .subnav{
+    
+    position: absolute;
+    background-color: rgb(255, 251, 251);
+}
+.subnav1{
+    position: absolute;
+    display: none;
+    width: 300px;
+
+}
+.subnav{
+    
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    position: absolute;
+    right: -770px;
+    width: 1300px; 
+    display: none;
+    z-index: 1;
+ 
+}
+#nav li:hover> a,
+#nav li:hover .subnav,
+#nav li:hover .subnav1{
+    display: block;
+    color: #ff0000;
+}
+
+.anhbia img{
+    width: 1860px;
+    height: 800;
+}
+/* 
+#nav > li:hover >a,
+#nav .subnav li:hover a{
+    color: #ff0000;
+    
+} */
+#logo li img{
+    
+    position: absolute;
+    padding: 16px;
+    background-size: 100% 100%;
+    width: 210px;
+    height: 220px;
+  top: 50px;
+  left: 70px;
+}
+ul{
+    list-style: none;
+}
+#icon{
+   
+    position: absolute;
+    left: 1500px;
+    top:10px
+}
+#icon ::placeholder{
+    position: absolute;
+    left: 100px;
+    
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;    
+
+}
+
+#icon input{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    width: 300px;
+    height: 40px;
+}
+#nav{
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    
+}
+
+#nav li a{
+    
+    color: #000;
+    text-decoration: none;
+    line-height: 90px;
+    font-size: 20px;
+    margin: 10px;
+    
+    
+   
+}
+
+#header{
+  height:750px;
+
+}
+
+#slider{
+    height:1006px;
+background-color: rgb(255, 255, 255);
+margin: auto;
+}
+
+ .app1 li img,
+ .app2 li img,
+ .app3 li img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    background-size: 100% 100%;
+    width: 408px;
+    height: 401px; 
+    margin-block-end: 30px; 
+}
+.app li img{
+    height: 400px;
+    width: 300px;
+    left: 300px;
+
+}
+.app li {
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+}
+.tenapp{
+    font-family: utmavobold;
+    position: absolute;
+    left: 800px;
+    color: rgb(1, 255, 136);
+    font-size: 40px;
+}
+.app img{
+    
+    position: absolute;
+    width: 1860px;
+}
+::after,::backdrop{
+    box-sizing: border-box;
+}
+element .style{
+    text-align: justify;
+}
+p{
+    margin: 0 10px;
+    text-align: justify;
+    position: absolute;
+    
+    font-size: 18px;
+    left: 900px;
+   top: 1050px;
+margin-bottom: 1rem;
+display: block;
+margin-block-start: 1em;
+margin-inline-end: 1em;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+}
+.app li,
+.app1 li,
+.app2 li,
+.app3 li {
+    padding: 36px;
+
+    display: inline-block;
+    
+}
+ul,
+li{
+    list-style: none;
+}
+.app li:hover a,
+.app1 li:hover a,
+.app2 li:hover a,
+.app3 li:hover a
+{
+    color: rgb(255, 4, 4);
+}
+.app li a,
+.app1 li a,
+.app2 li a,
+.app3 li a{
+    text-decoration: none;
+    
+}
+
+#footer{
+    margin-top: 19px;
+    height: 500px;
+background-color: rgb(255, 255, 255);
+
+}
+a{
+    font-size: 16px;
+}
+
+.app1 li a{
+    position: absolute;
+    top: 740px;
+    left: 500px;
+}
+.app2 li a{
+    position: absolute;
+    top: 640px;
+    left: 1000px;
+}
+.app3 li a{
+    position: absolute;
+    top: 640px;
+    left: 1500px;
+}
+#body{
+
+}
+h1{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.app1{
+    position: absolute;
+    left: 40%;
+    top: 1650px;
+    font-size: 36px;
+}
+
+#sp1 li a img {
+    margin-top: 200px;
+    display: inline-block;
+    
+    width: 300px;
+    left: 300px;
+    position: absolute;
+}
+.sp3 img{
+position: absolute; 
+top: 1800px;
+left: 800px;
+width: 900px;
+height: 500px;
+}
+.tieudecuoitrang{
+    position: absolute;
+    font-size: 25px;
+    top: 2270px;
+    background-color: #ff0000;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    width: 1100px;
+    left: 300px;
+}
